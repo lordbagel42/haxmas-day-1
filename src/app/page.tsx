@@ -34,7 +34,7 @@ export default function Home() {
 					<div className="modal-card" onClick={(e) => e.stopPropagation()}>
 						<h3>🎁 you booped 69 times 🎁</h3>
 						<p>
-							<em>nice</em>
+							jolly orpheus says <em>nice</em>
 						</p>
 
 						<a
