@@ -11,10 +11,7 @@
 	"name": "haxmas-day-1",
 	"main": ".open-next/worker.js",
 	"compatibility_date": "2025-12-01",
-	"compatibility_flags": [
-		"nodejs_compat",
-		"global_fetch_strictly_public"
-	],
+	"compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
 	"assets": {
 		"binding": "ASSETS",
 		"directory": ".open-next/assets"
@@ -34,7 +31,8 @@
 	],
 	"observability": {
 		"enabled": true
-	}
+	},
+	"routes": ["day1.haxmas.bagelindustries.com"]
 	/**
 	 * Smart Placement
 	 * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
